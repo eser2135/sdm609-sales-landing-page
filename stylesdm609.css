@@ -1,0 +1,141 @@
+
+    #navlist {
+      display: flex;
+      list-style-type: none;
+      width: 90%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+    
+    #navlist li {
+      float: right;
+      
+    }
+    
+    #navlist li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      
+    }
+    
+    li a:hover {
+      background-color: gray;
+    }
+    h1 {
+        color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    #form1 {
+        display: block;
+        background-color: burlywood;
+        width: 50%;
+        border: 2px solid gray;
+        padding: 20px;
+        position: relative;
+    }
+
+    #formclass {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #main-wrapper {
+      display: flex;
+      padding: 0 5% ;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #text {
+      margin-left: 40px;
+      padding-left: 10px;
+    }
+
+    main {
+      max-width: 100%;
+      width: 1200px;
+      margin: 100px auto;
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+
+    section.join {
+      background: #F4F4F4;
+      text-align: center;
+      padding: 60px 20px;
+      color: #4B4B4B;
+    }
+    section.join h2 {
+      font-size: 36px;
+    }
+    #positionlist {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .divlist {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 150px;
+      width: 30%;
+    
+    }
+    .divlist li {
+      list-style: none;
+    }
+    img {
+      width: 30%;
+      margin: auto;
+    }
+   
+
+
+
+   /* responsive styles */
+@media screen and (max-width: 1400px) {
+  .banner .welcome {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .banner .welcome {
+    font-size: 28px;
+  }
+  nav li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner .welcome {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+  }
+  .banner .welcome br {
+    display: none;
+  }
+  .banner .welcome span {
+    font-size: 1em;
+  }
